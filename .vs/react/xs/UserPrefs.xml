@@ -1,0 +1,51 @@
+﻿<Properties StartupConfiguration="{01A4BF36-A1DA-4C12-BC95-CDD6675D7549}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="react/ClientApp/src/components/FetchData.js">
+    <Files>
+      <File FileName="react/ClientApp/aspnetcore-react.js" Line="7" Column="19" />
+      <File FileName="react/ClientApp/aspnetcore-https.js" Line="1" Column="1" />
+      <File FileName="react/ClientApp/package.json" Line="1" Column="1" />
+      <File FileName="react/ClientApp/public/index.html" Line="1" Column="1" />
+      <File FileName="react/Program.cs" Line="20" Column="1" />
+      <File FileName="react/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="react/appsettings.json" Line="1" Column="1" />
+      <File FileName="react/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="react/Pages/_ViewImports.cshtml" Line="5" Column="1" />
+      <File FileName="react/Pages/Error.cshtml" Line="14" Column="9" />
+      <File FileName="react/ClientApp/src/setupProxy.js" Line="8" Column="22" />
+      <File FileName="react/ClientApp/src/App.js" Line="1" Column="1" />
+      <File FileName="react/ClientApp/src/components/FetchData.js" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="react" expanded="True">
+            <Node name="react" expanded="True">
+              <Node name="ClientApp" expanded="True">
+                <Node name="src" expanded="True">
+                  <Node name="components" expanded="True">
+                    <Node name="FetchData.js" selected="True" />
+                  </Node>
+                </Node>
+                <Node name=".env" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Pages" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.react PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
