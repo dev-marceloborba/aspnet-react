@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 const getData = () => {
-    fetch('https://react-aspnet.azurewebsites.net/WeatherForecastController')
+    fetch('weatherforecast')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Erro ao fazer a requisição: ' + response.status);
@@ -38,7 +38,7 @@ function App() {
         >
                   Learn React
         </a>
-              <button onClick={() => getData()}></button>
+              <button onClick={() => getData()}>Testar requisição</button>
       </header>
     </div>
   );
