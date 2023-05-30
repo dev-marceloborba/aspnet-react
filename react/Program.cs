@@ -1,8 +1,11 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using react.Hubs;
+
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllersWithViews();
+builder.Services.AddSignalR();
 
 var app = builder.Build();
 
@@ -23,6 +26,8 @@ app.MapControllerRoute(
     pattern: "{controller}/{action=Index}/{id?}");
 
 app.MapFallbackToFile("index.html");
+
+app.MapHub<ChatHub>("chat");
 
 app.Run();
 
