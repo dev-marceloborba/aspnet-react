@@ -29,7 +29,7 @@ function App() {
     return (
         <SignalRContext.Provider
             withCredentials={false}
-            url={"https://https://react-aspnet.azurewebsites.net/chat"}
+            url={"https://react-aspnet.azurewebsites.net/chat"}
 
         >
                 <div className="App">
